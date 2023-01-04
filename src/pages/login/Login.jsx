@@ -1,9 +1,14 @@
 import React from 'react'
+import { FormContainer, LoginContainer } from './Login.style'
 
 const Login = () => {
   return (
-    <div>Login</div>
+    <LoginContainer>
+      <FormContainer>
+       
+      </FormContainer>     
+    </LoginContainer>
   )
 }
 
-export default Login
+export default Login;
