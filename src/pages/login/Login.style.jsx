@@ -26,3 +26,15 @@ export const StyledImg = styled.img`
   width: 150px;
   margin: 1rem;
 `;
+
+export const StyledInput = styled.input`
+  height: 3rem;
+  font-size: 2rem;
+  width: 15rem;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  color: white;
+  margin: 1rem;
+  text-indent: 1rem;
+`;
