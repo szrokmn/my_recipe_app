@@ -21,3 +21,8 @@ export const FormContainer= styled(Flex)`
   padding: 0.5rem;
   flex-direction: column;
 `;
+
+export const StyledImg = styled.img`
+  width: 150px;
+  margin: 1rem;
+`;
