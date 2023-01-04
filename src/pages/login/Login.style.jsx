@@ -27,6 +27,16 @@ export const StyledImg = styled.img`
   margin: 1rem;
 `;
 
+export const Header = styled.h1`
+  color: white;
+  font-size: 3rem;
+`;
+
+export const StyledForm = styled.form`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const StyledInput = styled.input`
   height: 3rem;
   font-size: 2rem;
@@ -37,4 +47,18 @@ export const StyledInput = styled.input`
   color: white;
   margin: 1rem;
   text-indent: 1rem;
+`;
+
+export const StyledButton = styled.button`
+
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+  color: white;
+  border: none;
+  margin: 1rem;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
 `;
