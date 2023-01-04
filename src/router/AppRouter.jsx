@@ -6,7 +6,7 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route />
-      </Routes>
+      </Routes> 
     </BrowserRouter>
   );
 };
