@@ -11,6 +11,13 @@ export const LoginContainer = styled(Flex)`
     background-position: center;
 `;
 
-export const FormContainer = styled.div`
-
+export const FormContainer= styled(Flex)`
+  width: 40rem;
+  height: 40rem;
+  max-width: 50rem;
+  background: rgba(0, 173, 181, 0.5);
+  border-radius: 50%;
+  border: 2px solid #e1f1dd;
+  padding: 0.5rem;
+  flex-direction: column;
 `;
