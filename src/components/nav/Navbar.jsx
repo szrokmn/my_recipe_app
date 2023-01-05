@@ -1,14 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Nav } from './Navbar.style'
+import { Brand, Nav } from './Navbar.style'
 
 const Navbar = () => {
   return (
     <Nav justify = "space-between" wrap = "wrap">
-      <a href="">
+      <Brand to="/">
         <i>{"<Clarusway/>"}</i>
         <span>Recipe</span>
-      </a>
+      </Brand>
       <div>
         <Link to = "/">Home</Link>
         <Link to = "about">About</Link>
