@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { Nav } from './Navbar.style'
 
 const Navbar = () => {
   return (
-    <nav>
+    <Nav justify = "space-between" wrap = "wrap">
       <a href="">
         <i>{"<Clarusway/>"}</i>
         <span>Recipe</span>
@@ -14,7 +15,7 @@ const Navbar = () => {
         <Link to = "register">Register</Link>
         <Link to = "logout">Logout</Link>
       </div>
-    </nav>
+    </Nav>
   )
 }
 
