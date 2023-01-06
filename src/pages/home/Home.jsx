@@ -1,5 +1,6 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
+import { Header } from '../login/Login.style';
 
 const Home = () => {
 
@@ -25,7 +26,7 @@ const Home = () => {
 
   return (
     <div>
-      Home
+      <Header/>
     </div>
   )
 }
